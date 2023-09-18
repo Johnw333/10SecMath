@@ -1,3 +1,11 @@
+.container {
+  background-color: lightgreen;
+}
+
 h2 {
-  color: blue; 
+  font-weight: bold; 
+}
+
+.row {
+  text-align: center;
 }

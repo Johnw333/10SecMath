@@ -17,11 +17,9 @@ $(document).ready(function () {
     if (score > highScore) {
       highScore = score; 
       $('#high-score-value').text(highScore); 
-    }
-    
+    }   
   };
   
-
 var startGame = function () {
   if (!interval) {
     if (timeLeft === 0) {
